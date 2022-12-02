@@ -1,0 +1,98 @@
+@media screen and (max-width: 1200px) {
+   
+    .profilelogo {
+        height: 40px;
+        width:40px;
+        padding:0px;
+        /* background-color: white;
+        border-radius: 50px; */
+        margin-right :0px
+   }
+   #nav{
+    border: 0px;
+    padding: 2px;
+   }
+   li {
+    display: inline-block;
+    font-size: 16px;
+    list-style: none;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    text-decoration: none;
+    
+  }
+   .firstdiv {
+    display:flex;
+  flex-direction: column;
+}
+#logo{
+  width: 100%;
+}
+.div1{
+    height: 400px;
+    width: 100%;
+  display: grid;
+  flex-direction: column;
+ 
+}
+.divpara{
+  display: block;
+    font-size: 44px;
+    text-align: center;
+  
+}
+.para1{
+  display: block;
+    
+    font-size: 30px;
+    
+   
+    
+}
+.footer{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.foot a{
+  flex-direction: column;
+
+}
+.copyright{
+  
+  flex-direction: column;
+}
+.head{
+  font-size: 20px;
+}
+.box-img{
+  width: 100%;
+}
+.body{
+  padding: 5px;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+}
+
+
+/* for tablet */
+@media only screen and (min-width: 768px){
+  .profilelogo{
+    margin-right: 150px;
+  }
+  li{
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width:1050px){
+  .profilelogo{
+    margin-right: 600px;
+  }
+
+  li {
+    font-size: 25px;
+  }
+}
